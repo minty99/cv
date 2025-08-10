@@ -569,7 +569,7 @@
     
 
     #v(-design-text-leading)
-    #v(design-highlights-top-margin);#highlights([#strong[Google Hash Code 2019]: 9th Place \(Final Round, Team: TwingTwingTwing Platinum\)],[#strong[Codeforces]: Max rating 1710 \(Expert\)],)
+    #v(design-highlights-top-margin);#highlights([#strong[Google Hash Code 2019]: 9th Place \(Final Round, Team: TwingTwingTwing Platinum\)],)
   ],
 )
 

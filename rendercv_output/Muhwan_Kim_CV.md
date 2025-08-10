@@ -54,7 +54,6 @@ Versatile systems engineer focused on making AI models—especially LLMs—run e
 ## 
 
 - **Google Hash Code 2019**: 9th Place (Final Round, Team: TwingTwingTwing Platinum)
-- **Codeforces**: Max rating 1710 (Expert)
 
 # Skills
 

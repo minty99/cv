@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>
+        Muhwan Kim's CV
+    </title>
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/5.5.1/github-markdown-light.min.css"
+        integrity="sha512-Pmhg2i/F7+5+7SsdoUqKeH7UAZoVMYb1sxGOoJ0jWXAEHP0XV2H4CITyK267eHWp2jpj7rtqWNkmEOw1tNyYpg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.12/dist/katex.min.css" integrity="sha384-PDbUeNCuE6bOPudPOgFyIUEy3UJawJVwr3XlGO90FIuf5qNIoTLSgOJo/dC2ZXV/" crossorigin="anonymous">
+
+    <!-- The loading of KaTeX is deferred to speed up page rendering -->
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.12/dist/katex.min.js" integrity="sha384-VkqWq8xtm5YQk1BBXczQ8/Sx+DlCzF8cuS43bZwmtVXzRFtyLTqTCdP7MKmKo+KN" crossorigin="anonymous"></script>
+
+    <!-- To automatically render math in text elements, include the auto-render extension: -->
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.12/dist/contrib/auto-render.min.js" integrity="sha384-hCXGrW6PitJEwbkoStFjeJxv+fSOOQKOPbJxSfM6G5sWZjAyWhXiTIIAmQqnlLlh" crossorigin="anonymous"
+        onload="renderMathInElement(document.body, {delimiters: [{ left: '$$',  right: '$$',  display: false }]});"></script>
+    <style>
+        .markdown-body {
+            box-sizing: border-box;
+            min-width: 200px;
+            max-width: 980px;
+            margin: 0 auto;
+            padding: 45px;
+        }
+
+        @media (max-width: 767px) {
+            .markdown-body {
+                padding: 15px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <article class="markdown-body">
+        <h1>Muhwan Kim's CV</h1>
+        <ul>
+        <li>Email: <a href="mailto:me@muhwan.dev">me@muhwan.dev</a></li>
+        <li>Location: Seoul, South Korea</li>
+        <li>GitHub: <a href="https://github.com/minty99">minty99</a></li>
+        </ul>
+        <h1>Summary</h1>
+        <p>Versatile systems engineer focused on making AI models—especially LLMs—run efficiently on custom hardware by building compilers, schedulers, and performance tooling. Ramp up fast in new domains and apply new ideas rapidly to ship production systems. Optimize for real speedups, clear design, and reliability.</p>
+        <h1>Experience</h1>
+        <h2>FuriosaAI, Senior Software Engineer</h2>
+        <ul>
+        <li>May 2023 – present</li>
+        <li>Seoul, South Korea</li>
+        <li>Designed and implemented a cycle‑level performance estimator for the RNGD NPU in Rust</li>
+        <li>Led the design and implementation of the instruction scheduler, enabling state‑of‑the‑art LLMs to run on the RNGD NPU.</li>
+        <li>Scaled the compiler test pipeline to keep iteration fast as model complexity grew, maintaining hundreds of LLM model‑compilation tests per PR and the merge queue.</li>
+        <li><em>Tech: Rust (compiler), Python/TypeScript/React/Kubernetes/Tekton (tooling)</em></li>
+        </ul>
+        <h2>Kakao, Machine Learning Engineer</h2>
+        <ul>
+        <li>July 2020 – May 2023</li>
+        <li>Seoul, South Korea</li>
+        <li>Engineered a high‑performance C++ inference engine on ONNX Runtime, replacing TensorFlow Serving via cgo to meet production‑latency requirements.</li>
+        <li>Developed a contrastive‑learning keyword‑targeting model in PyTorch to improve ad relevance and performance.</li>
+        <li>Built online training and feature‑generation pipelines using Kubernetes and Go.</li>
+        <li>Reviewed coding tests for intern and new‑grad candidates and authored the official solution guide for the 2021 recruitment cycle, published on <a href="https://tech.kakao.com/2021/07/08/2021-%EC%B9%B4%EC%B9%B4%EC%98%A4-%EC%9D%B8%ED%84%B4%EC%8B%AD-for-tech-developers-%EC%BD%94%EB%94%A9-%ED%85%8C%EC%8A%A4%ED%8A%B8-%ED%95%B4%EC%84%A4/">Kakao Tech Blog</a>.</li>
+        <li><em>Tech: Python (ML), C++/Go (inference), Kubernetes/Argo (CI/CD), React/Flask (tooling), PySpark (data)</em></li>
+        </ul>
+        <h2>MINDsLAB, Software Engineer (Part‑time)</h2>
+        <ul>
+        <li>June 2019 – May 2020</li>
+        <li>Seoul, South Korea</li>
+        </ul>
+        <h2>RideFlux, Software Engineer (Intern)</h2>
+        <ul>
+        <li>Jan 2019 – Feb 2019</li>
+        <li>Seoul, South Korea</li>
+        </ul>
+        <h1>Education</h1>
+        <h2>Seoul National University, B.S. in Computer Science and Engineering</h2>
+        <ul>
+        <li>Mar 2017 – Feb 2023</li>
+        <li>Seoul, South Korea</li>
+        <li>Major GPA: 3.7 / 4.3</li>
+        <li>Completed all systems‑related core courses with an A0 or higher</li>
+        </ul>
+        <h1>Awards</h1>
+        <h2></h2>
+        <ul>
+        <li><strong>Google Hash Code 2019</strong>: 9th Place (Final Round, Team: TwingTwingTwing Platinum)</li>
+        <li><strong>Codeforces</strong>: Max rating 1710 (Expert)</li>
+        </ul>
+        <h1>Skills</h1>
+        <h2></h2>
+        <ul>
+        <li><strong>Programming Languages</strong>: Rust, Python, C/C++, Go, TypeScript, JavaScript</li>
+        <li><strong>ML &amp; Computing</strong>: PyTorch, TensorFlow, ONNX Runtime, CUDA, OpenCL</li>
+        <li><strong>Infrastructure &amp; DevOps</strong>: Kubernetes, Docker, Argo CD, Argo Workflows, Tekton</li>
+        <li><strong>Tools &amp; Frameworks</strong>: React, Node.js, Flask, PySpark</li>
+        <li><strong>Languages</strong>: Korean (Native); English: Professional working proficiency</li>
+        </ul>
+    </article>
+</body>
+
+</html>
